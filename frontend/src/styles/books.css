@@ -45,11 +45,11 @@
 }
 .books_container_book_description_title {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .books_container_book_description_description {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .books_container_book_description_price {
   font-weight: bold;

@@ -4,6 +4,7 @@
  * @type {mongoose.Schema}
  */
 import mongoose ,{Schema ,Document} from "mongoose";
+import { object, string } from "zod";
 
 export interface User extends Document{
   studentName: string;
@@ -13,8 +14,18 @@ export interface User extends Document{
   password: string;
   role: string;
   createdAt: Date;
-  borrowBooks: any[];
+  borrowBooks: Array<{
+    bookId: string;
+    borrowDate: Date;
+    
+    
+    returnDate: Date;
+    fine: number;
+    isReturned: boolean;
+  }>
   isVerified: boolean;
+  fines: number;
+  balance: number;
   
 }
 const userSchema : Schema<User> = new Schema({
@@ -88,10 +99,48 @@ const userSchema : Schema<User> = new Schema({
   },
   borrowBooks: [
     {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "books",
+      type: new Schema({
+        bookId: {
+          type: Schema.Types.ObjectId,
+          ref: "books", // replace "Book" with the actual model name for the book
+        },
+        borrowDate: {
+          type: Date,
+          default: Date.now,
+          required: true,
+        },
+        returnDate: {
+          type: Date,
+          default: null,
+        },
+        fine: {
+          type: Number,
+          default: 0,
+        },
+        isReturned: {
+          type: Boolean,
+          default: false,
+        },
+      }),
     },
+  
   ],
+  /**
+   * Fines
+   * @type {number}
+   */
+  fines: {
+    type: Number,
+    default: 0,
+  },
+  /**
+   * Balance
+   * @type {number}
+   */
+  balance: {
+    type: Number,
+    default: 0,
+  },
   
 });
 

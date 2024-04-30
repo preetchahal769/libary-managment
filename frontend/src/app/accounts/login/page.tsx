@@ -1,3 +1,9 @@
+/**
+ * Login component
+ * @description This component is the login page of the application
+ *
+ */
+
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
@@ -10,6 +16,11 @@ import { useToast } from "@/components/ui/use-toast";
 import { useState } from "react";
 import "@/styles/login.css";
 import { ReloadIcon } from "@radix-ui/react-icons";
+
+/**
+ * Login component
+ * @returns {JSX.Element} Login component
+ */
 export default function Login() {
   const { toast } = useToast();
   const router = useRouter();
@@ -18,6 +29,11 @@ export default function Login() {
     email: "",
     password: "",
   });
+
+  /**
+   * Handles login API request
+   * @returns {Promise<void>} void promise
+   */
   console.log("login");
   const onLogin = async () => {
     try {
@@ -68,8 +84,7 @@ export default function Login() {
 
           {!loading && (
             <Button
-              className="accounts_container_form_input_b
-          utton"
+              className="accounts_container_form_input_button"
               size="login"
               onClick={onLogin}
               onKeyDown={(e) => {
@@ -84,8 +99,7 @@ export default function Login() {
           {loading && (
             <Button
               disabled
-              className="accounts_container_form_input_b
-          utton"
+              className="accounts_container_form_input_button"
               size="login"
               onClick={onLogin}
             >

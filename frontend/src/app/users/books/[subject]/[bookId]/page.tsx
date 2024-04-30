@@ -3,6 +3,7 @@ import axios from "axios";
 
 import { useState, useEffect } from "react";
 import "@/styles/bookId.css";
+import { Button } from "@/components/ui/button";
 
 interface BookType {
   title: string;
@@ -27,11 +28,13 @@ export default function bookPage(props: any) {
     price: 0,
   });
   const [loading, setLoading] = useState(false);
+  const [btnLoading, setBtnLoading] = useState(false);
   const getBook = async () => {
     try {
       setLoading(true);
       const response = await axios.post("/api/books/getBook", {
         _id: props.params.bookId,
+        subject: props.params.subject,
       });
       setBook(response.data.book);
       console.log("response.data", response.data.book);
@@ -39,6 +42,19 @@ export default function bookPage(props: any) {
       console.log(error);
     } finally {
       setLoading(false);
+    }
+  };
+  const rentBook = async (_id: string) => {
+    try {
+      setBtnLoading(true);
+      const response = await axios.post("/api/profile/updateBooks", {
+        bookId: _id,
+      });
+      console.log("response.data", response.data);
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setBtnLoading(false);
     }
   };
   useEffect(() => {
@@ -49,14 +65,26 @@ export default function bookPage(props: any) {
     <div className="books">
       <div className="booksId_container">
         {loading ? (
-          <div className="loading"></div>
+          <div className="bookId_loading"></div>
         ) : (
           <div className="booksId_container_book">
-            <h1>{book.title}</h1>
-            <p>{book.description}</p>
-            <p>{book.author}</p>
-            <p>{book.price}</p>
-            <p>{book.rating}</p>
+            {book.title ? (
+              <>
+                <h1>Title: {book.title}</h1>
+                <p>Description: {book.description}</p>
+                <p>Author: {book.author}</p>
+                <p>Price: {book.price}</p>
+                <p>Rating: {book.rating}</p>
+                <Button
+                  onClick={() => rentBook(props.params.bookId)}
+                  className="rent_btn"
+                >
+                  Rent Now
+                </Button>
+              </>
+            ) : (
+              <p className="no_book">No book found</p>
+            )}
           </div>
         )}
       </div>

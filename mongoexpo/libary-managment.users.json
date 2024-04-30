@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "663139daad2abd1b6f1982b9"
+  },
+  "studentName": "gfdhfdhfghdf",
+  "email": "chahalp778@gmail.com",
+  "studentRollNo": "1234566789",
+  "studentContactNo": "1233456789",
+  "password": "$2a$10$fz2.m/NkXwXPTH0JZ5VAU.hSCSoO42Jpelbg316PPEuug3rji7rKS",
+  "isVerified": false,
+  "role": "student",
+  "borrowBooks": [
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f3820a"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T18:58:43.910Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T18:59:32.322Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:00:14.832Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:01:37.164Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:04:36.547Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:04:45.425Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:05:22.347Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:06:15.799Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:08:42.731Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:09:03.655Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:09:34.590Z"
+      }
+    },
+    {
+      "returnDate": null,
+      "fine": 0,
+      "isReturned": false,
+      "_id": {
+        "$oid": "662fdf6b32aa9097d7f38221"
+      },
+      "borrowDate": {
+        "$date": "2024-04-30T19:10:26.070Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-30T18:35:06.196Z"
+  },
+  "__v": 17,
+  "balance": 0,
+  "fines": 0
+}]

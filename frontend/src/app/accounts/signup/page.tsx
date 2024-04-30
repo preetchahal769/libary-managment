@@ -1,5 +1,11 @@
+/**
+ * The Sign Up Page
+ * @description This component renders the sign up page of the application
+ * @author      Sajjad Serpedar
+ * @since       2021-06-11
+ */
 "use client";
-import bgImage from "@/assets/images/login_bg.jpg";
+
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -11,6 +17,16 @@ import { signUpSchemas } from "@/schemas/signUpSchemas";
 import { useRouter } from "next/navigation";
 import "@/styles/login.css";
 
+/**
+ * The form values interface
+ * @typedef FormValues
+ * @property {string} studentName - The students name
+ * @property {string} email - The students email address
+ * @property {string} studentRollNo - The students roll number
+ * @property {string} studentContactNo - The students contact number
+ * @property {string} password - The students password
+ * @property {string} confirmPassword - The students Confirm password
+ */
 interface FormValues {
   studentName: string;
   email: string;
@@ -19,27 +35,46 @@ interface FormValues {
   password: string;
   confirmPassword: string;
 }
+
+/**
+ * The form schema
+ * @constant
+ * @description This constant defines the form schema
+ * @type {z.ZodType<FormValues>}
+ */
 const FormSchema: z.ZodType<FormValues> = z.object({
+  // The students name must be at least 2 characters long
   studentName: z.string().min(2, {
     message: "Username must be at least 2 characters.",
   }),
+  // The students email address must be a valid email address
   email: z.string().email({
     message: "Invalid email address.",
   }),
+  // The students roll number must be at least 2 characters long
   studentRollNo: z.string().min(2, {
     message: "Username must be at least 2 characters.",
   }),
+  // The students contact number must be at least 2 characters long
   studentContactNo: z.string().min(2, {
     message: "Username must be at least 2 characters.",
   }),
+  // The students password must be at least 8 characters long
   password: z.string().min(8, {
     message: "Password must be at least 8 characters.",
   }),
+  // The students confirm password must be at least 8 characters long
   confirmPassword: z.string().min(8, {
     message: "Password must be at least 8 characters.",
   }),
 });
 
+/**
+ * The Sign Up Page Component
+ * @description This component renders the sign up page of the application
+ * @function Login
+ * @returns {JSX.Element} - Rendered sign up page component
+ */
 export default function Login() {
   const router = useRouter();
   const {
@@ -47,7 +82,9 @@ export default function Login() {
     handleSubmit,
     formState: { errors },
   } = useForm<z.infer<typeof FormSchema>>({
+    // Use the form schema to validate the form
     resolver: zodResolver(FormSchema),
+    // Set the default form values
     defaultValues: {
       studentName: "",
       email: "",
@@ -57,13 +94,22 @@ export default function Login() {
       confirmPassword: "",
     },
   });
+  /**
+   * Handle the form submission
+   * @description This function handles the form submission
+   * @function onSubmit
+   * @param {FormValues} data - The form submission data
+   * @returns {Promise<void>}
+   */
   const onSubmit = async (data: z.infer<typeof FormSchema>) => {
     console.log("submited data", data);
     if (data.password !== data.confirmPassword) {
+      // If the password and confirm password does not match
       alert("password and confirm password should be same");
     } else {
       try {
         const reqData = {
+          // The data to be sent to the server
           studentName: data.studentName,
           email: data.email,
           studentRollNo: data.studentRollNo,
@@ -100,6 +146,7 @@ export default function Login() {
             placeholder="Name"
             {...register("studentName")}
           />
+          {/* Render the error message if there is one */}
           {errors.studentName && (
             <p className="accounts_error">{errors.studentName.message}</p>
           )}
@@ -109,6 +156,7 @@ export default function Login() {
             placeholder="Email"
             {...register("email")}
           />
+          {/* Render the error message if there is one */}
           {errors.email && (
             <p className="accounts_error">{errors.email.message}</p>
           )}
@@ -118,6 +166,7 @@ export default function Login() {
             placeholder="Roll No"
             {...register("studentRollNo")}
           />
+          {/* Render the error message if there is one */}
           {errors.studentRollNo && (
             <p className="accounts_error">{errors.studentRollNo.message}</p>
           )}
@@ -127,6 +176,7 @@ export default function Login() {
             placeholder="Contact No"
             {...register("studentContactNo")}
           />
+          {/* Render the error message if there is one */}
           {errors.studentContactNo && (
             <p className="accounts_error">{errors.studentContactNo.message}</p>
           )}
@@ -136,6 +186,7 @@ export default function Login() {
             placeholder="Password"
             {...register("password")}
           />
+          {/* Render the error message if there is one */}
           {errors.password && (
             <p className="accounts_error">{errors.password.message}</p>
           )}
@@ -146,13 +197,13 @@ export default function Login() {
             placeholder=" Confirm Password"
             {...register("confirmPassword")}
           />
+          {/* Render the error message if there is one */}
           {errors.confirmPassword && (
             <p className="accounts_error">{errors.confirmPassword.message}</p>
           )}
 
           <Button
-            className="accounts_container_form_input_b
-          utton"
+            className="accounts_container_form_input_button"
             size="login"
             type="submit"
           >

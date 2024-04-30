@@ -1,0 +1,862 @@
+[
+  {
+    "title": "Physical Chemistry",
+    "author": "Ella Thompson",
+    "stock": 18,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.8,
+    "price": 15
+  },
+  {
+    "title": "Astrobiology",
+    "author": "Carter White",
+    "stock": 14,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.7,
+    "price": 10
+  },
+  {
+    "title": "Environmental Chemistry",
+    "author": "Madison Martinez",
+    "stock": 19,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.2,
+    "price": 20
+  },
+  {
+    "title": "Cellular Biology",
+    "author": "Nathan Harris",
+    "stock": 13,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.6,
+    "price": 15
+  },
+  {
+    "title": "Quantum Chemistry",
+    "author": "Grace Wilson",
+    "stock": 16,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.9,
+    "price": 10
+  },
+  {
+    "title": "Astrophysics",
+    "author": "Isaac Taylor",
+    "stock": 12,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.3,
+    "price": 20
+  },
+  {
+    "title": "Molecular Genetics",
+    "author": "Luna Rodriguez",
+    "stock": 17,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.8,
+    "price": 10
+  },
+  {
+    "title": "Particle Physics",
+    "author": "Elijah Thomas",
+    "stock": 15,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.4,
+    "price": 15
+  },
+  {
+    "title": "Bioorganic Chemistry",
+    "author": "Avery Brown",
+    "stock": 11,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.1,
+    "price": 10
+  },
+  {
+    "title": "Neurobiology",
+    "author": "Evelyn Garcia",
+    "stock": 20,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.5,
+    "price": 20
+  },
+  {
+    "title": "Thermodynamics",
+    "author": "Owen Wilson",
+    "stock": 10,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.0,
+    "price": 10
+  },
+  {
+    "title": "Cellular Physiology",
+    "author": "Chloe Martinez",
+    "stock": 18,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.9,
+    "price": 15
+  },
+  {
+    "title": "Organic Synthesis",
+    "author": "Gabriel Johnson",
+    "stock": 16,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.7,
+    "price": 15
+  },
+  {
+    "title": "Biophysics",
+    "author": "Hannah Thompson",
+    "stock": 12,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.6,
+    "price": 20
+  },
+  {
+    "title": "Genomics",
+    "author": "Cameron White",
+    "stock": 14,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.9,
+    "price": 15
+  },
+  {
+    "title": "Physical Organic Chemistry",
+    "author": "Madelyn Brown",
+    "stock": 13,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.8,
+    "price": 10
+  },
+  {
+    "title": "Bioinformatics",
+    "author": "Eli Garcia",
+    "stock": 15,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.2,
+    "price": 20
+  },
+  {
+    "title": "Nanotechnology",
+    "author": "Brooklyn Wilson",
+    "stock": 19,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.7,
+    "price": 10
+  },
+  {
+    "title": "Developmental Biology",
+    "author": "Landon Thompson",
+    "stock": 17,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.4,
+    "price": 15
+  },
+  {
+    "title": "Inorganic Synthesis",
+    "author": "Aubrey White",
+    "stock": 11,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.1,
+    "price": 20
+  },
+  {
+    "title": "Immunology",
+    "author": "Levi Brown",
+    "stock": 20,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.8,
+    "price": 10
+  },
+  {
+    "title": "Physical Biochemistry",
+    "author": "Nora Garcia",
+    "stock": 16,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.3,
+    "price": 15
+  },
+  {
+    "title": "Human Physiology",
+    "author": "Caleb Thompson",
+    "stock": 10,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.9,
+    "price": 20
+  },
+  {
+    "title": "Quantum Biology",
+    "author": "Samantha White",
+    "stock": 18,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.0,
+    "price": 10
+  },
+  {
+    "title": "Biochemistry of Lipids",
+    "author": "Gavin Brown",
+    "stock": 14,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.5,
+    "price": 15
+  },
+  {
+    "title": "Evolutionary Biology",
+    "author": "Amelia Garcia",
+    "stock": 12,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.7,
+    "price": 20
+  },
+  {
+    "title": "Physical Anthropology",
+    "author": "Luke Thompson",
+    "stock": 13,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.6,
+    "price": 10
+  },
+  {
+    "title": "Astrochemistry",
+    "author": "Harper White",
+    "stock": 15,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.1,
+    "price": 20
+  },
+  {
+    "title": "Physics Fundamentals",
+    "author": "Emily Johnson",
+    "stock": 17,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.6,
+    "price": 15
+  },
+  {
+    "title": "Advanced Mathematics",
+    "author": "David Lee",
+    "stock": 13,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.2,
+    "price": 10
+  },
+  {
+    "title": "Biology Explained",
+    "author": "Sarah Adams",
+    "stock": 14,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.8,
+    "price": 20
+  },
+  {
+    "title": "Chemical Reactions",
+    "author": "Michael Brown",
+    "stock": 12,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.9,
+    "price": 10
+  },
+  {
+    "title": "Astrophysics Fundamentals",
+    "author": "Jessica White",
+    "stock": 16,
+    "subject": "Astrophysics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.5,
+    "price": 20
+  },
+  {
+    "title": "Organic Chemistry Basics",
+    "author": "John Smith",
+    "stock": 11,
+    "subject": "Quantum Mechanics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.1,
+    "price": 10
+  },
+  {
+    "title": "Modern Physics",
+    "author": "Emma Davis",
+    "stock": 15,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.7,
+    "price": 15
+  },
+  {
+    "title": "Cell Biology",
+    "author": "James Wilson",
+    "stock": 18,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.0,
+    "price": 10
+  },
+  {
+    "title": "Quantum Mechanics Explained",
+    "author": "Olivia Martinez",
+    "stock": 20,
+    "subject": "Quantum Mechanics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.9,
+    "price": 20
+  },
+  {
+    "title": "Physical Chemistry",
+    "author": "Sophia Rodriguez",
+    "stock": 19,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 3.8,
+    "price": 15
+  },
+  {
+    "title": "Genetics",
+    "author": "Noah Taylor",
+    "stock": 10,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.4,
+    "price": 20
+  },
+  {
+    "title": "Thermodynamics",
+    "author": "Isabella Anderson",
+    "stock": 14,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.3,
+    "price": 10
+  },
+  {
+    "title": "Molecular Biology",
+    "author": "Ethan Brown",
+    "stock": 16,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.6,
+    "price": 15
+  },
+  {
+    "title": "Inorganic Chemistry",
+    "author": "Ava Wilson",
+    "stock": 18,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.2,
+    "price": 15
+  },
+  {
+    "title": "Astrobiology",
+    "author": "Daniel Thomas",
+    "stock": 11,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.7,
+    "price": 10
+  },
+  {
+    "title": "Electromagnetism",
+    "author": "Charlotte Garcia",
+    "stock": 12,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.8,
+    "price": 10
+  },
+  {
+    "title": "Biochemistry",
+    "author": "Logan Martinez",
+    "stock": 20,
+    "subject": "Chemistry",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.5,
+    "price": 20
+  },
+  {
+    "title": "Quantum Physics",
+    "author": "Mia Johnson",
+    "stock": 15,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.1,
+    "price": 10
+  },
+  {
+    "title": "Microbiology",
+    "author": "Liam Davis",
+    "stock": 19,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.4,
+    "price": 15
+  },
+  {
+    "title": "Nuclear Physics",
+    "author": "Zoe Wilson",
+    "stock": 16,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.9,
+    "price": 20
+  },
+  {
+    "title": "Astrobiology",
+    "author": "Sophie Rodriguez",
+    "stock": 15,
+    "subject": "Biology",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.3,
+    "price": 20
+  },
+  {
+    "title": "Quantum Computing",
+    "author": "Daniel Lee",
+    "stock": 10,
+    "subject": "Physics",
+    "image": "http://localhost:3000/assets/books/history.jpeg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "rating": 4.8,
+    "price": 15
+  },
+  {
+    "title": "World History: A Comprehensive Overview",
+    "author": "Emily Johnson",
+    "stock": 15,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/world_history.jpeg",
+    "description": "Explore the depths of human history from ancient civilizations to modern times.",
+    "rating": 4.5,
+    "price": 20
+  },
+  {
+    "title": "Geology: Earth's Dynamic Forces",
+    "author": "Michael Thompson",
+    "stock": 12,
+    "subject": "Geology",
+    "image": "http://localhost:3000/assets/books/geology.jpeg",
+    "description": "Uncover the mysteries of the Earth's formation and its ongoing geological processes.",
+    "rating": 4.6,
+    "price": 18
+  },
+  {
+    "title": "Civics and Citizenship: Understanding Society",
+    "author": "Sophia Rodriguez",
+    "stock": 20,
+    "subject": "Civics",
+    "image": "http://localhost:3000/assets/books/civics.jpeg",
+    "description": "Delve into the fundamental principles of government and citizenship rights.",
+    "rating": 4.7,
+    "price": 22
+  },
+  {
+    "title": "Political Theory: Ideals and Realities",
+    "author": "David Smith",
+    "stock": 8,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/political_theory.jpeg",
+    "description": "Examine the evolution of political thought and its impact on governance.",
+    "rating": 4.4,
+    "price": 25
+  },
+  {
+    "title": "Advanced Calculus: Theory and Applications",
+    "author": "Jennifer White",
+    "stock": 18,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/advanced_calculus.jpeg",
+    "description": "Master the intricacies of calculus and its practical applications in various fields.",
+    "rating": 4.9,
+    "price": 30
+  },
+  {
+    "title": "Computer Science Fundamentals: Algorithms and Data Structures",
+    "author": "Kevin Brown",
+    "stock": 25,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/computer_science.jpeg",
+    "description": "Gain a solid foundation in computer science through the study of algorithms and data structures.",
+    "rating": 4.8,
+    "price": 28
+  },
+  {
+    "title": "The Rise and Fall of Ancient Civilizations",
+    "author": "Jessica Adams",
+    "stock": 14,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/ancient_civilizations.jpeg",
+    "description": "Discover the fascinating stories behind the rise and fall of ancient empires.",
+    "rating": 4.7,
+    "price": 22
+  },
+  {
+    "title": "Physical Geography: Exploring Earth's Surface",
+    "author": "Brian Evans",
+    "stock": 11,
+    "subject": "Geography",
+    "image": "http://localhost:3000/assets/books/physical_geography.jpeg",
+    "description": "Explore the diverse landscapes and processes shaping our planet's surface.",
+    "rating": 4.5,
+    "price": 19
+  },
+  {
+    "title": "Introduction to Political Science",
+    "author": "Sophie Martinez",
+    "stock": 17,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/intro_to_political_science.jpeg",
+    "description": "An introductory overview of political systems, ideologies, and institutions.",
+    "rating": 4.6,
+    "price": 24
+  },
+  {
+    "title": "Mathematical Logic: A Formal Approach",
+    "author": "Thomas Clark",
+    "stock": 9,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/mathematical_logic.jpeg",
+    "description": "Dive into the principles of mathematical reasoning and logical deduction.",
+    "rating": 4.8,
+    "price": 26
+  },
+  {
+    "title": "Computer Networks: Principles and Protocols",
+    "author": "Lisa Adams",
+    "stock": 22,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/computer_networks.jpeg",
+    "description": "Understand the fundamentals of computer networking and communication protocols.",
+    "rating": 4.9,
+    "price": 29
+  },
+  {
+    "title": "Ancient History: Empires and Conquests",
+    "author": "Daniel Williams",
+    "stock": 13,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/ancient_history.jpeg",
+    "description": "An exploration of the ancient world's greatest civilizations and their legacies.",
+    "rating": 4.7,
+    "price": 21
+  },
+  {
+    "title": "Meteorology: Understanding Weather Patterns",
+    "author": "Rachel Green",
+    "stock": 16,
+    "subject": "Meteorology",
+    "image": "http://localhost:3000/assets/books/meteorology.jpeg",
+    "description": "Learn about the science behind weather phenomena and atmospheric processes.",
+    "rating": 4.6,
+    "price": 23
+  },
+  {
+    "title": "International Relations: Theories and Practices",
+    "author": "Michael Carter",
+    "stock": 10,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/international_relations.jpeg",
+    "description": "An examination of global politics, diplomacy, and international cooperation.",
+    "rating": 4.5,
+    "price": 27
+  },
+  {
+    "title": "Number Theory: Exploring Prime Numbers",
+    "author": "Sarah Johnson",
+    "stock": 20,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/number_theory.jpeg",
+    "description": "Delve into the mysteries of prime numbers and their mathematical properties.",
+    "rating": 4.8,
+    "price": 25
+  },
+  {
+    "title": "Database Systems: Design and Implementation",
+    "author": "Andrew Lee",
+    "stock": 18,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/database_systems.jpeg",
+    "description": "Learn how to design, implement, and manage database systems for efficient data storage.",
+    "rating": 4.9,
+    "price": 31
+  },
+  {
+    "title": "The Industrial Revolution: Transforming Societies",
+    "author": "Emma Roberts",
+    "stock": 15,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/industrial_revolution.jpeg",
+    "description": "Examine the profound social, economic, and technological changes of the industrial era.",
+    "rating": 4.7,
+    "price": 23
+  },
+  {
+    "title": "Environmental Science: Principles and Applications",
+    "author": "David Miller",
+    "stock": 12,
+    "subject": "Environmental Science",
+    "image": "http://localhost:3000/assets/books/environmental_science.jpeg",
+    "description": "Gain insights into the complex interactions between humans and the environment.",
+    "rating": 4.6,
+    "price": 20
+  },
+  {
+    "title": "Public Policy Analysis: Theory and Practice",
+    "author": "Sophie Thompson",
+    "stock": 17,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/public_policy_analysis.jpeg",
+    "description": "Explore the processes and methodologies used in analyzing and formulating public policies.",
+    "rating": 4.5,
+    "price": 26
+  },
+  {
+    "title": "Linear Algebra: Foundations and Applications",
+    "author": "John Davis",
+    "stock": 11,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/linear_algebra.jpeg",
+    "description": "Master the fundamental concepts of vector spaces, matrices, and linear transformations.",
+    "rating": 4.8,
+    "price": 28
+  },
+  {
+    "title": "Operating Systems: Principles and Practice",
+    "author": "Laura White",
+    "stock": 23,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/operating_systems.jpeg",
+    "description": "Understand the core principles and design considerations of modern operating systems.",
+    "rating": 4.9,
+    "price": 30
+  },
+  {
+    "title": "Modern European History: From Napoleon to Present",
+    "author": "Robert Johnson",
+    "stock": 14,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/modern_european_history.jpeg",
+    "description": "An exploration of the political, social, and cultural developments in Europe.",
+    "rating": 4.7,
+    "price": 24
+  },
+  {
+    "title": "Ecology: Concepts and Applications",
+    "author": "Jennifer Adams",
+    "stock": 16,
+    "subject": "Ecology",
+    "image": "http://localhost:3000/assets/books/ecology.jpeg",
+    "description": "Discover the interrelationships between organisms and their environments.",
+    "rating": 4.6,
+    "price": 22
+  },
+  {
+    "title": "Comparative Politics: Systems and Structures",
+    "author": "Michael Wilson",
+    "stock": 9,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/comparative_politics.jpeg",
+    "description": "Compare and analyze different political systems and structures around the world.",
+    "rating": 4.5,
+    "price": 27
+  },
+  {
+    "title": "Probability Theory: Concepts and Applications",
+    "author": "Emily Davis",
+    "stock": 21,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/probability_theory.jpeg",
+    "description": "Explore the principles of probability and its applications in various fields.",
+    "rating": 4.8,
+    "price": 26
+  },
+  {
+    "title": "Web Development: Fundamentals and Beyond",
+    "author": "Kevin Wilson",
+    "stock": 19,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/web_development.jpeg",
+    "description": "Learn the essentials of web development and explore advanced techniques.",
+    "rating": 4.9,
+    "price": 32
+  },
+  {
+    "title": "The Industrial Revolution: Transforming Societies",
+    "author": "Emma Roberts",
+    "stock": 15,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/industrial_revolution.jpeg",
+    "description": "Examine the profound social, economic, and technological changes of the industrial era.",
+    "rating": 4.7,
+    "price": 23
+  },
+  {
+    "title": "Environmental Science: Principles and Applications",
+    "author": "David Miller",
+    "stock": 12,
+    "subject": "Environmental Science",
+    "image": "http://localhost:3000/assets/books/environmental_science.jpeg",
+    "description": "Gain insights into the complex interactions between humans and the environment.",
+    "rating": 4.6,
+    "price": 20
+  },
+  {
+    "title": "Public Policy Analysis: Theory and Practice",
+    "author": "Sophie Thompson",
+    "stock": 17,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/public_policy_analysis.jpeg",
+    "description": "Explore the processes and methodologies used in analyzing and formulating public policies.",
+    "rating": 4.5,
+    "price": 26
+  },
+  {
+    "title": "Linear Algebra: Foundations and Applications",
+    "author": "John Davis",
+    "stock": 11,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/linear_algebra.jpeg",
+    "description": "Master the fundamental concepts of vector spaces, matrices, and linear transformations.",
+    "rating": 4.8,
+    "price": 28
+  },
+  {
+    "title": "Operating Systems: Principles and Practice",
+    "author": "Laura White",
+    "stock": 23,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/operating_systems.jpeg",
+    "description": "Understand the core principles and design considerations of modern operating systems.",
+    "rating": 4.9,
+    "price": 30
+  },
+  {
+    "title": "Modern European History: From Napoleon to Present",
+    "author": "Robert Johnson",
+    "stock": 14,
+    "subject": "History",
+    "image": "http://localhost:3000/assets/books/modern_european_history.jpeg",
+    "description": "An exploration of the political, social, and cultural developments in Europe.",
+    "rating": 4.7,
+    "price": 24
+  },
+  {
+    "title": "Ecology: Concepts and Applications",
+    "author": "Jennifer Adams",
+    "stock": 16,
+    "subject": "Ecology",
+    "image": "http://localhost:3000/assets/books/ecology.jpeg",
+    "description": "Discover the interrelationships between organisms and their environments.",
+    "rating": 4.6,
+    "price": 22
+  },
+  {
+    "title": "Comparative Politics: Systems and Structures",
+    "author": "Michael Wilson",
+    "stock": 9,
+    "subject": "Political Science",
+    "image": "http://localhost:3000/assets/books/comparative_politics.jpeg",
+    "description": "Compare and analyze different political systems and structures around the world.",
+    "rating": 4.5,
+    "price": 27
+  },
+  {
+    "title": "Probability Theory: Concepts and Applications",
+    "author": "Emily Davis",
+    "stock": 21,
+    "subject": "Mathematics",
+    "image": "http://localhost:3000/assets/books/probability_theory.jpeg",
+    "description": "Explore the principles of probability and its applications in various fields.",
+    "rating": 4.8,
+    "price": 26
+  },
+  {
+    "title": "Web Development: Fundamentals and Beyond",
+    "author": "Kevin Wilson",
+    "stock": 19,
+    "subject": "Computer Science",
+    "image": "http://localhost:3000/assets/books/web_development.jpeg",
+    "description": "Learn the essentials of web development and explore advanced techniques.",
+    "rating": 4.9,
+    "price": 32
+  }
+]

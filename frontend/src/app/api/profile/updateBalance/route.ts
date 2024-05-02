@@ -36,11 +36,11 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
         }
 
-        const { _id } = decoded as { // Extract the user's _id from the decoded token
+        const { id } = decoded as { // Extract the user's _id from the decoded token
         
-            _id: string;
+            id: string;
         };
-        const user = await User.findOne({ _id: _id }); // Find the user in the database
+        const user = await User.findOne({ _id: id }); // Find the user in the database
         if (!user) { // If the user is not found, return a not found response
         
             return NextResponse.json({ message: "User not found" }, { status: 404 });

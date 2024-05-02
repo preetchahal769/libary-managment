@@ -15,7 +15,8 @@ export interface User extends Document{
   role: string;
   createdAt: Date;
   borrowBooks: Array<{
-    bookId: string;
+    
+    _id: string;
     borrowDate: Date;
     
     

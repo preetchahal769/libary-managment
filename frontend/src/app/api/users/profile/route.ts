@@ -8,7 +8,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 connectDB();
 
-export async function GET(request: NextApiRequest) {
+export async function POST(request: NextApiRequest) {
     try {
         const cookie = cookies();
         const token = cookie.get('token')?.value;
@@ -23,13 +23,13 @@ export async function GET(request: NextApiRequest) {
             return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
         }
 
-        const { _id } = decoded as {
-            _id: string
+        const { id } = decoded as {
+            id: string
         };
         
 
 
-        const user = await User.findOne({ _id: _id });
+        const user = await User.findOne({ _id: id });
         if (!user) {
             return NextResponse.json({ message: "User not found" }, { status: 404 });
         }

@@ -11,11 +11,14 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
+import { any, z } from "zod";
 import axios from "axios";
 import { signUpSchemas } from "@/schemas/signUpSchemas";
 import { useRouter } from "next/navigation";
 import "@/styles/login.css";
+import { useState } from "react";
+import { ReloadIcon } from "@radix-ui/react-icons";
+import { useToast } from "@/components/ui/use-toast";
 
 /**
  * The form values interface
@@ -77,6 +80,8 @@ const FormSchema: z.ZodType<FormValues> = z.object({
  */
 export default function Login() {
   const router = useRouter();
+  const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
   const {
     register,
     handleSubmit,
@@ -108,6 +113,7 @@ export default function Login() {
       alert("password and confirm password should be same");
     } else {
       try {
+        setLoading(true);
         const reqData = {
           // The data to be sent to the server
           studentName: data.studentName,
@@ -122,8 +128,14 @@ export default function Login() {
         const res = await axios.post("/api/users/signup", verfiedData);
         console.log(res);
         router.push("/accounts/login");
-      } catch (error) {
+      } catch (error: any) {
         console.log(error);
+        toast({
+          variant: "destructive",
+          description: error.response.data.message,
+        });
+      } finally {
+        setLoading(false);
       }
     }
   };
@@ -202,13 +214,25 @@ export default function Login() {
             <p className="accounts_error">{errors.confirmPassword.message}</p>
           )}
 
-          <Button
-            className="accounts_container_form_input_button"
-            size="login"
-            type="submit"
-          >
-            Sign In
-          </Button>
+          {!loading && (
+            <Button
+              className="accounts_container_form_input_button"
+              size="login"
+              type="submit"
+            >
+              Sign In
+            </Button>
+          )}
+          {loading && (
+            <Button
+              disabled
+              className="accounts_container_form_input_button"
+              size="login"
+            >
+              <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
+              Please wait
+            </Button>
+          )}
         </form>
 
         <div className="accounts_container_bottom">

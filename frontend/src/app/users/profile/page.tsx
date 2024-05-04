@@ -24,6 +24,7 @@ export default function page() {
     studentContactNo: "",
   });
   const [balance, setBalance] = useState(0);
+  const [fine, setFine] = useState(0);
   const [booksLoading, setBooksLoading] = useState(false);
   const logout = async () => {
     try {
@@ -77,6 +78,15 @@ export default function page() {
       console.log(error);
     }
   };
+  const getFine = async () => {
+    try {
+      const response = await axios.post("/api/profile/getFine");
+      setFine(response.data.fine);
+      console.log("response.data.fines", response.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   const payFine = async () => {
     try {
       const response = await axios.post("/api/profile/payFine");
@@ -89,6 +99,7 @@ export default function page() {
     getProfile();
     getBalance();
     getBooks();
+    getFine();
   }, []);
   return (
     <div className="profile">
@@ -120,7 +131,7 @@ export default function page() {
           <p>Total Books</p>
         </div>
         <div className="profile_container_stats_items">
-          <h1>100Rs</h1>
+          <h1>{fine}Rs</h1>
           <p>Fine Pending</p>
           <Button>Pay Fine</Button>
         </div>
